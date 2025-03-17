@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Etch a Sktech</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div id="controls">
+      <h1>Etch-a-Sketch</h1>
+
+      <input type="color" id="favcolor" value="#ff0000">
+
+      <input type="range" min="1" max="100"  value="16" id="myRange">
+      <p id="demo"></p>
+
+      <button id="erase">Clear SketchPad</button>
+    </div>
+    <div id="container">
+    </div>
+
+    <footer class="footer">
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        Sohaib Kamal
+      </p>
+      <a href="https://github.com/Sohaib-Kamal04" target="_blank">
+        <img class="github-logo" src="github-mark.svg" />
+      </a>
+    </footer>
+
+    <script src="code.js"></script>
+  </body>
+</html>
