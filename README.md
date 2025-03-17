@@ -3,9 +3,11 @@ Etch-a-Sketch Web App
 This is a simple Etch-a-Sketch web application built using HTML, CSS, and JavaScript. It allows users to create digital sketches by hovering over a grid and changing the color of individual cells. The project features interactive controls for color selection, grid size adjustment, and an erase function.
 
 Technologies Used
+
 HTML: Structure of the webpage.
 CSS: Styling and layout design.
 JavaScript: Interactive functionality, including event listeners and DOM manipulation.
+
 Features
 ✅ Dynamic Grid Size: Adjust the number of grid squares using a slider (from 1x1 to 100x100).
 ✅ Color Picker: Choose a custom color for drawing.
